@@ -1464,7 +1464,7 @@ input, select, textarea {
 		}
 
 		header.style1 p {
-			color: #b1b4b9;
+			color: #888888;
 			display: block;
 			margin: 1.15em 0 0 0;
 			font-size: 1.3em;
@@ -1855,6 +1855,9 @@ input, select, textarea {
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
 		}
+		.feature-list p {
+			color: #1e1e1e;
+		}
 
 			.feature-list h3:before {
 				display: block;
@@ -2209,19 +2212,19 @@ input, select, textarea {
 				color: #fff;
 			}
 
-/* Intro */
+/* hiring */
 
-	#intro {
+	#hiring {
 		padding-bottom: 8em;
 		text-align: center;
 	}
 
-		#intro p.style1 {
+		#hiring p.style1 {
 			font-size: 1.5em;
 			letter-spacing: 0.075em;
 		}
 
-		#intro p.style2 {
+		#hiring p.style2 {
 			font-weight: 700;
 			color: #fff;
 			border-radius: 0.35em;
@@ -2233,24 +2236,24 @@ input, select, textarea {
 			margin-bottom: 1em;
 		}
 
-			#intro p.style2 a {
+			#hiring p.style2 a {
 				color: inherit;
 				text-decoration: none;
 			}
 
-		#intro p.style3 {
+		#hiring p.style3 {
 			font-size: 1.1em;
 			width: 48em;
 			margin: 0 auto;
 		}
 
-/* Features */
+/* introduction */
 
-	#features header.style1 {
+	#introduction header.style1 {
 		padding-bottom: 5em;
 	}
 
-	#features ul.actions {
+	#introduction ul.actions {
 		margin-top: 5em;
 	}
 
@@ -2266,6 +2269,9 @@ input, select, textarea {
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
 		}
+		#highlights .highlight p {
+			color: #1e1e1e;
+		}
 
 /* Main */
 
@@ -2278,7 +2284,7 @@ input, select, textarea {
 		padding-bottom: 6em;
 	}
 
-		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b, #footer a {
+		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b, #footer a, #footer p {
 			color: #fff;
 		}
 
@@ -2368,6 +2374,105 @@ input, select, textarea {
 			#footer .feature-list h3:before {
 				background: #3d4249 url("images/overlay.png");
 			}
+			/* pricing */
+
+				#pricing {
+					background: #282b34 url("images/overlay.png");
+					color: #eee;
+					color: rgba(255, 255, 255, 0.5);
+					padding-bottom: 0.1em;
+				}
+
+					#pricing h1, #pricing h2, #pricing h3, #pricing h4, #pricing h5, #pricing h6, #pricing strong, #pricing b, #pricing a, #pricing p {
+						color: #fff;
+					}
+
+					#pricing hr {
+						border-top-color: #333;
+						border-top-color: rgba(255, 255, 255, 0.05);
+					}
+
+					#pricing form input[type="text"],
+					#pricing form input[type="email"],
+					#pricing form input[type="password"],
+					#pricing form select,
+					#pricing form textarea {
+						background: #ccc;
+						box-shadow: none;
+					}
+
+						#pricing form input[type="text"]:focus,
+						#pricing form input[type="email"]:focus,
+						#pricing form input[type="password"]:focus,
+						#pricing form select:focus,
+						#pricing form textarea:focus {
+							background: #fff;
+						}
+
+					#pricing input[type="button"],
+					#pricing input[type="submit"],
+					#pricing input[type="reset"],
+					#pricing button,
+					#pricing .button {
+						color: #fff;
+						box-shadow: inset 0px 0px 2px 0px rgba(255, 255, 255, 0.5);
+					}
+
+						#pricing input[type="button"]:hover,
+						#pricing input[type="submit"]:hover,
+						#pricing input[type="reset"]:hover,
+						#pricing button:hover,
+						#pricing .button:hover {
+							color: #fff;
+							box-shadow: inset 0px 0px 2px 0px rgba(255, 255, 255, 0.65);
+						}
+
+						#pricing input[type="button"]:active,
+						#pricing input[type="submit"]:active,
+						#pricing input[type="reset"]:active,
+						#pricing button:active,
+						#pricing .button:active {
+							box-shadow: inset 0px 0px 2px 0px rgba(255, 255, 255, 0.75);
+						}
+
+						#pricing input[type="button"].style2:active,
+						#pricing input[type="submit"].style2:active,
+						#pricing input[type="reset"].style2:active,
+						#pricing button.style2:active,
+						#pricing .button.style2:active {
+							box-shadow: inset 0px 0px 2px 0px rgba(255, 255, 255, 0.75);
+						}
+
+					#pricing .title {
+						background: #282b34 url("images/overlay.png");
+						color: #eee;
+					}
+
+					#pricing header.style1 {
+						padding-bottom: 4em;
+						margin-bottom: 4em;
+
+					}
+
+						#pricing header.style1 h2 {
+							color: #fff;
+						}
+
+						#pricing header.style1 .p {
+							color: inherit;
+						}
+
+					#pricing .feature-list {
+						max-width: 100%;
+					}
+
+						#pricing .feature-list section {
+							border-top-color: rgba(255, 255, 255, 0.05);
+						}
+
+						#pricing .feature-list h3:before {
+							background: #3d4249 url("images/overlay.png");
+						}
 
 /* Copyright */
 
@@ -2450,17 +2555,17 @@ input, select, textarea {
 					font-size: 1.75em;
 				}
 
-		/* Intro */
+		/* hiring */
 
-			#intro {
+			#hiring {
 				padding-bottom: 7em;
 			}
 
-				#intro p.style1 {
+				#hiring p.style1 {
 					font-size: 1.25em;
 				}
 
-				#intro p.style2 {
+				#hiring p.style2 {
 					font-size: 2.25em;
 				}
 
@@ -2532,9 +2637,9 @@ input, select, textarea {
 				top: 0;
 			}
 
-		/* Intro */
+		/* hiring */
 
-			#intro p.style3 {
+			#hiring p.style3 {
 				width: auto;
 			}
 
@@ -2900,9 +3005,9 @@ input, select, textarea {
 					font-size: 0.9em;
 				}
 
-		/* Intro */
+		/* hiring */
 
-			#intro {
+			#hiring {
 				text-align: center;
 				padding-right: 2em;
 				padding-left: 2em;
@@ -2910,24 +3015,24 @@ input, select, textarea {
 				margin: 0 auto;
 			}
 
-				#intro p.style1 {
+				#hiring p.style1 {
 					margin-bottom: 1.5em;
 				}
 
-				#intro p.style2 {
+				#hiring p.style2 {
 					font-size: 1.5em;
 					letter-spacing: 0.05em;
 					line-height: 1.25em;
 					padding: 1.25em;
 				}
 
-		/* Features */
+		/* introduction */
 
-			#features header.style1 {
+			#introduction header.style1 {
 				padding-bottom: 4em;
 			}
 
-			#features ul.actions {
+			#hiringduction ul.actions {
 				margin-top: 4em;
 			}
 
