@@ -2064,7 +2064,7 @@ input, select, textarea {
 		justify-content: center;
 		position: relative;
 		height: 24em;
-		background: url("../../images/banner.jpg") center center;
+		background: url("../../images/banner(2).jpg") center center;
 		background-size: cover;
 		padding: 0;
 	}
@@ -3088,3 +3088,13 @@ input, select, textarea {
 						}
 
 	}
+.box-transparent {
+background: rgba(100, 10, 10, 0.7);
+width: 300px;
+height: 250px;
+border-radius: 30px;
+text-align: center;
+line-height: 250px;
+color: white;
+margin: 0 auto;
+}
